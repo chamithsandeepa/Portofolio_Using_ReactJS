@@ -51,10 +51,18 @@ const Contact = () => {
               <textarea className='msg' name="message" rows="5" placeholder='Your Message'></textarea>
               <button type='submit' value='Send' className="submitBtn">Submit</button>
               <div className="links">
-                <FacebookIcon className='link' />
-                <LinkedInIcon className='link' />
-                <XIcon className='link' />
-                <InstagramIcon className='link' />
+                <a href="https://www.facebook.com" target="_blank">
+                  <FacebookIcon className="link" />
+                </a>
+                <a href="http://linkedin.com/in/chamithsandeepa" target="_blank">
+                  <LinkedInIcon className="link" />
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                  <XIcon className="link" />
+                </a>
+                <a href="https://www.instagram.com/chamith_sandeepa_00" target="_blank">
+                  <InstagramIcon className="link" />
+                </a>
               </div>
             </form>
         </div>

@@ -22,13 +22,12 @@
 .dekstopMenuListItem {
     margin: 1rem;
     cursor: pointer;
-    text-decoration: none;
 }
 
 .dekstopMenuListItem:hover {
-    color: red;
+    color: blue;
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid blue;
 }
 
 .dekstopMenuBtn {
@@ -50,9 +49,9 @@
 }
 
 .active {
-    color: red;
+    color: blue;
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid blue;
 }
 
 .mobMenu {

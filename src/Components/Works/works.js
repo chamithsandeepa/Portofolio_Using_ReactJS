@@ -11,7 +11,7 @@ const Works = () => {
   return (
     <section id='works'>
         <h2 className="worksTitle">My Portofolio</h2>
-        <span className="worksDesc">I take the pride in paying attention to the smallest details and</span>
+        <span className="worksDesc">I take pride in paying attention to the smallest details and leveraging Machine Learning and AI to create intelligent, efficient, and innovative solutions that solve real-world problems.</span>
         <div className="worksImgs">
             <img src={Portofolio1} alt="" className="worksImg" />
             <img src={Portofolio2} alt="" className="worksImg" />
